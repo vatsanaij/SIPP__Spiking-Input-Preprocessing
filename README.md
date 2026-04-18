@@ -5,5 +5,5 @@ An example of a spiking input preprocessing system for processing a sinusoidal i
 In this case, the synaptic weights are set as follows: w1 = 1000, w2 = 2000, w3= -1000, and w4= -2000.
 
 
-#Reference
+## Reference
 [1] NEST Simulator Documentation. [Online]. Available: https://nest-simulator.readthedocs.io/en/stable/
