@@ -5,7 +5,8 @@ This system can be implemented by directly feeding analog or continuous signals 
 ## Example: Sinusoidal Input Processing
 An example of a spiking input preprocessing system for processing a sinusoidal input signal using four Leaky Integrate-and-Fire (LIF) neurons, with parameters derived from the NEST Simulator [1], is shown in the figure below. The sinusoidal input is fed into the LIF neurons (I1–I4) through synaptic connections, each with a different weight. 
 In this case, the synaptic weights are set as follows: w1 = 1000, w2 = 2000, w3= -1000, and w4= -2000.
-
+![SIPP Diagram](figures/sipp_diagram.png)
+*Fig. 2. Spiking Input Preprocessing system using LIF neurons.*
 
 ## Reference
 [1] NEST Simulator Documentation. [Online]. Available: https://nest-simulator.readthedocs.io/en/stable/
